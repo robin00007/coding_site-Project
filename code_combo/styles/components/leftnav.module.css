@@ -1,0 +1,14 @@
+.lnavContainer{
+    height: 70%;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    background-color: #7885EE;
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    transform: translate(50%,-50%);
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+}

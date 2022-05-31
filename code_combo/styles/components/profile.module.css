@@ -1,0 +1,12 @@
+.profileContainer{
+    height: 70px;
+    aspect-ratio: 1/1;
+    background-color: #7885EE;
+    border-radius: 50%;
+    position: absolute;
+    right:1%;
+    top:1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
