@@ -1,0 +1,66 @@
+.loginContainer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: rgb(87, 86, 86);
+
+}
+.loginImageContaner{
+     height: 100%;
+     width: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: grey;
+
+}
+.loginInput{
+    border:none;
+    border-bottom: 1px solid grey;
+    background-color:transparent;
+    height: 30px;
+    width: 100%;
+}
+.LoginButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+    background-color:#7885EE;
+    border:none;
+    font-weight: bold;
+    color: rgb(35, 34, 34);
+    color: white;
+}
+.LoginWithGoogleButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+    background-color:#FF7900;
+    border:none;
+    font-weight: bold;
+color: white;
+
+}
+.LoginWithGoogleButton svg{
+    height: 90%;
+    aspect-ratio: 1/1;
+    margin-left: -34px;
+}
+.signInButton{
+    background-color: transparent;
+    border:none;
+    font-weight: bold;
+    color: grey;
+    font-size: 18px;
+
+
+
+}
