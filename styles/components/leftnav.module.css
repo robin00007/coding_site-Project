@@ -1,5 +1,5 @@
 .lnavContainer{
-    height: 70%;
+    height: 99%;
     width: 70px;
     display: flex;
     flex-direction: column;
@@ -7,8 +7,24 @@
     position: absolute;
     left: 0%;
     top: 50%;
-    transform: translate(50%,-50%);
-    border-radius: 25px;
+    transform: translate(5%,-50%);
+    border-radius: 5px;
     align-items: center;
+    justify-content: space-between;
+}
+.navlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
     justify-content: space-evenly;
+    height: auto;
+    min-height: 50%;
+
+}
+.signInState{
+    display: flex;
+    justify-content: center;
+    width:50%;
+    margin-bottom: 10px;
 }

@@ -6,12 +6,12 @@ import style from "../styles/components/layout.module.css";
 
 export default function Layout({ children }) {
   return (
-    <>
+    <div className={style.mainContainer}>
       <Titlebar />
       <Profile />
       <Leftnavbar />
       <main className={style.layoutcontainer}>{children}</main>
-      <SocialLink />
-    </>
+      {/* <SocialLink /> */}
+    </div>
   );
 }
